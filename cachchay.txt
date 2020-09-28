@@ -1,0 +1,10 @@
+cai dat thu vien trong requirement.txt
+chay cac commandline:
+python ./speaker-recognition.py -t enroll -i "./datatrain/hang/ datatrain/hoai/ datatrain/huong/ datatrain/nhung/ datatrain/tuananh datatrain/murray datatrain/jenny" -m model.out
+python ./speaker-recognition.py -t enroll -i "./datatrain/*" -m model.out
+python ./speaker-recognition.py -t predict -i "datatest/*.wav" -m model.out
+
+python ./speaker-recognition.py -t enroll -i "./train/*" -m model.out
+python ./speaker-recognition.py -t predict -i "datatest/*.wav" -m model.out
+
+C:\Users\DucKhanh\Anaconda3\envs\speaker\Library\bin
